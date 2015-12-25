@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPt-rT-z7j">
+                                <rect key="frame" x="157" y="319" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BIs-Ct-lg6"/>
+                                </constraints>
+                                <state key="normal" title="分享内容"/>
+                                <connections>
+                                    <action selector="ClickShareButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XIA-R8-Tlw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvh-kL-nAc">
+                                <rect key="frame" x="172" y="386" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="07E-zQ-Nx7"/>
+                                </constraints>
+                                <state key="normal" title="登陆"/>
+                                <connections>
+                                    <action selector="ClickLogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ub-Ff-6Iv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登陆信息" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ma2-7B-0qZ">
+                                <rect key="frame" x="0.0" y="223" width="375" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VWj-Un-kRJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="108*108.png" translatesAutoresizingMaskIntoConstraints="NO" id="M9y-5c-8o1">
+                                <rect key="frame" x="100" y="28" width="175" height="148"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5I-xi-0pa">
+                                <rect key="frame" x="0.0" y="453" width="375" height="79"/>
+                                <state key="normal" title="取消授权"/>
+                                <connections>
+                                    <action selector="CancelAuth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gm3-V7-sVt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="j5I-xi-0pa" secondAttribute="bottom" constant="135" id="3Il-lB-yqF"/>
+                            <constraint firstItem="M9y-5c-8o1" firstAttribute="centerX" secondItem="Ma2-7B-0qZ" secondAttribute="centerX" id="3yV-Ih-Ywo"/>
+                            <constraint firstItem="M9y-5c-8o1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="8he-Ld-HUI"/>
+                            <constraint firstItem="Ma2-7B-0qZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="AMO-N0-aFc"/>
+                            <constraint firstItem="j5I-xi-0pa" firstAttribute="top" secondItem="tvh-kL-nAc" secondAttribute="bottom" constant="37" id="Lc0-PY-tqI"/>
+                            <constraint firstItem="M9y-5c-8o1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="84" id="UGz-Eb-Rrm"/>
+                            <constraint firstItem="tvh-kL-nAc" firstAttribute="centerX" secondItem="aPt-rT-z7j" secondAttribute="centerX" id="byb-Jq-EYT"/>
+                            <constraint firstItem="j5I-xi-0pa" firstAttribute="leading" secondItem="Ma2-7B-0qZ" secondAttribute="leading" id="ea7-2F-eKK"/>
+                            <constraint firstItem="aPt-rT-z7j" firstAttribute="centerX" secondItem="Ma2-7B-0qZ" secondAttribute="centerX" id="gEj-Jk-i87"/>
+                            <constraint firstItem="aPt-rT-z7j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gGm-om-3yh"/>
+                            <constraint firstItem="j5I-xi-0pa" firstAttribute="trailing" secondItem="Ma2-7B-0qZ" secondAttribute="trailing" id="gL1-ip-1kH"/>
+                            <constraint firstItem="Ma2-7B-0qZ" firstAttribute="top" secondItem="M9y-5c-8o1" secondAttribute="bottom" constant="47" id="q0e-Pv-Br2"/>
+                            <constraint firstAttribute="trailing" secondItem="Ma2-7B-0qZ" secondAttribute="trailing" id="rpp-m1-XAw"/>
+                            <constraint firstItem="tvh-kL-nAc" firstAttribute="top" secondItem="aPt-rT-z7j" secondAttribute="bottom" constant="37" id="t1B-hP-4BD"/>
+                            <constraint firstItem="aPt-rT-z7j" firstAttribute="top" secondItem="Ma2-7B-0qZ" secondAttribute="bottom" constant="75" id="tZr-VU-6ja"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="UserInfo" destination="Ma2-7B-0qZ" id="lYS-wg-b2z"/>
+                        <outlet property="userIcon" destination="M9y-5c-8o1" id="Tp3-Wc-lh4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286.5" y="297.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="108*108.png" width="108" height="108"/>
+    </resources>
+</document>
