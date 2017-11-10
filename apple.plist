@@ -33,15 +33,15 @@
                 <key>metadata</key>
                 <dict>
                     <key>update-url</key>
-                    <string>https://dn-mypure.qbox.me/iosLocal.plist</string>
+                    <string>https://raw.githubusercontent.com/aelop/shareSDKTest/master/apple.plist</string>
                     <key>bundle-identifier</key>
-                    <string>com.ustcinfo.zysb.AHhaoXian</string>
+                    <string>com.xxxc.yssm</string>
                     <key>bundle-version</key>
-                    <string>2.5</string>
+                    <string>1.0.0</string>
                     <key>kind</key>
                     <string>software</string>
                     <key>title</key>
-                    <string>网络能力支撑</string>
+                    <string>勇者使命</string>
                 </dict>
             </dict>
         </array>
