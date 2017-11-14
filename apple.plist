@@ -35,13 +35,13 @@
                     <key>update-url</key>
                     <string>https://raw.githubusercontent.com/aelop/shareSDKTest/master/apple.plist</string>
                     <key>bundle-identifier</key>
-                    <string>com.xxxc.yssm</string>
+                    <string>com.qzygs</string>
                     <key>bundle-version</key>
-                    <string>1.0.0</string>
+                    <string>2.0.0</string>
                     <key>kind</key>
                     <string>software</string>
                     <key>title</key>
-                    <string>勇者使命</string>
+                    <string>全职业高手</string>
                 </dict>
             </dict>
         </array>
