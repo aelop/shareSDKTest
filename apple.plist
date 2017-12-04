@@ -11,7 +11,7 @@
                         <key>kind</key>
                         <string>software-package</string>
                         <key>url</key>
-                        <string>http://192.168.0.217/dnv.ipa</string> 
+                        <string>http://192.168.0.251:11101/f3_9377/%E6%B8%A0%E9%81%93%E5%8C%85/yhzr.ipa</string> 
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -35,13 +35,13 @@
                     <key>update-url</key>
                     <string>https://raw.githubusercontent.com/aelop/shareSDKTest/master/apple.plist</string>
                     <key>bundle-identifier</key>
-                    <string>com.xvxc.snmxzl</string>
+                    <string>mobius.game003</string>
                     <key>bundle-version</key>
                     <string>1.0.0</string>
                     <key>kind</key>
                     <string>software</string>
                     <key>title</key>
-                    <string>少年冒险之旅</string>
+                    <string>银魂之刃</string>
                 </dict>
             </dict>
         </array>
