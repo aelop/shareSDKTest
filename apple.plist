@@ -19,7 +19,7 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>http://192.168.0.217/dnv.png</string>
+                        <string>http://192.168.0.217/yhzr.png</string>
                     </dict>
                     <dict>
                         <key>kind</key>
@@ -27,7 +27,7 @@
                         <key>needs-shine</key>
                         <true/>
                         <key>url</key>
-                        <string>http://192.168.0.217/dnv.png</string>
+                        <string>http://192.168.0.217/yhzr.png</string>
                     </dict>
                 </array>
                 <key>metadata</key>
@@ -35,7 +35,7 @@
                     <key>update-url</key>
                     <string>https://raw.githubusercontent.com/aelop/shareSDKTest/master/apple.plist</string>
                     <key>bundle-identifier</key>
-                    <string>mobius.game003</string>
+                    <string>mobius.game0003</string>
                     <key>bundle-version</key>
                     <string>1.0.0</string>
                     <key>kind</key>
